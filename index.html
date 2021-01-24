@@ -1,158 +1,183 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<title>laura ilona</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|VT323" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="styles/style.css">
-		<link rel="stylesheet" type="text/css" href="styles/typewriter.css">
-	</head>
-	<body>
-    <header id="top">
-      <div class="navigation-container">
-        <div class="logo"><a href="#top">laurailona.io</a></div>
-				<div class="top-nav-container">
-				<button class="menu-container" id="show-menu-button">
-  				<span class="menu-icon"></span>
-  				<span class="menu-icon"></span>
-  				<span class="menu-icon"></span>
-				</button>
-        <nav class="top-nav" id="top-nav">
-          <ul>
-            <li><a href="#about">about</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#hire-me">work with me</a></li>
-          </ul>
-      </nav>
-		</div>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <!-- SECTION 1: TITLE AND NAVIGATION -->
+  <div class="section-container flex-container" id="section-1">
+    <nav><ul>
+      <li>about</li>
+      <li>resume</li>
+      <li>projects</li>
+      <li>contact</li>
+    </ul></nav>
+    <div class="flex-item center-text titel-text">
+      <!-- <h1 class="cursive">Portfolio</h1> -->
+      <h2 class="multicoloured uppercase"><span>L</span><span>a</span><span>u</span><span>r</span><span>a</span> <span>I</span><span>l</span><span>o</span><span>n</span><span>a</span></h2>
+      <div class="titel-image"><img src="images/squiggle.svg"></div>
+      <h3>Full Stack Developer | Instructional Designer</h3>
     </div>
-    <div class="header">
-      <div class="header-name">
-        laura
-        ilona
-      </div>
-      <div class="header-intro">
-        <div class="web-dev">
-          <h2>fullstack web developer</h2>
-        </div>
-      </div>
+      <div class="background-transition"><img src="images/background-transition-1-2.svg"></div>
+  </div>
+  <!-- SECTION 2.1: ABOUT -->
+  <div class="section-container grid-container" id="section-2">
+    <div class="about-image-container">
+      <img src="images/about-intro.svg" id="about-image">
     </div>
-    </header>
-    <main>
-      <section class="about" id="about">
-        <h2>ABOUT</h2>
-				<p class="intro-text-mobile">Hello there. I'm Laura and I'm a frontend web developer with backend knowledge. I'm passionate about JavaScript, clean code and creative UI.</p>
-        <div class="cv">
-          <div class="cv-experience">
-            <h3>experience and education</h2>
-              <div class="cv-row">
-                <div class="cv-year">since 2018</div>
-                <div class="cv-content">
-									Freelance web developer<br>
-									remote
-								</div>
-              </div>
-              <div class="cv-row">
-                <div class="cv-year">2018 - current</div>
-                <div class="cv-content">
-									MSc Computer Science<br>
-									University of Hertfordshire</div>
-              </div>
-              <div class="cv-row">
-                <div class="cv-year">2017 - 2018</div>
-                <div class="cv-content">
-									Frontend developer<br>
-									Chingu Cohort</div>
-              </div>
-          </div>
-          <div class="cv-skills">
-            <h3>skills</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript (Vanilla + jQuery)</li>
-							<li>D3</li>
-              <li>React + Redux</li>
-            </ul>
-            <ul>
-              <li>PHP</li>
-							<li>Python</li>
-							<li>C/ C++</li>
-              <li>SQL</li>
-            </ul>
-            <ul>
-              <li>git + Github</li>
-              <li>Agile</li>
-            </ul>          </div>
-        </div>
-      </section>
-      <section class="portfolio" id="portfolio">
-				<div class="mobile-portfolio-button"><a href="portfolio.html"><span class="white-highlight">SEE MORE</span></a></div>
-				<div class="portfolio-content">
-					<div class="portfolio-content-container">
-          <h3>Landing Pages</h3>
-          <div class="portfolio-section">
-						<div class="portfolio-image"><img src="images/makeawish-small.png" alt="placeholder"></div>
-						<div class="portfolio-text">
-							<h4><span class="white-highlight">Make A Wish - Simple landing page template</span></h4>
-							<p><span class="white-highlight">A simple landing page template, made with JavaScript, CSS and HTML.</span></p>
-							<p class="portfolio-links"><a href="https://laurailona.github.io/make_a_wish/" target="_blank"><span class="white-highlight">Live demo</span></a> <a href="https://github.com/laurailona/make_a_wish/" target="_blank"><span class="white-highlight"> Code on Github</span></a></p></div>
-					</div>
-				</div>
-				<div class="portfolio-content-container">
-          <h3>Personal Projects</h3>
-          <div class="portfolio-section">
-						<div class="portfolio-image"><img src="images/calculator-small.png" alt="placeholder"></div>
-						<div class="portfolio-text">
-							<h4><span class="white-highlight">CalculateIt - JavaScript Calculator</span></h4>
-							<p><span class="white-highlight">A calculator made entirely with HTML, CSS and Vanilla JavaScript</span></p>
-							<p class="portfolio-links"><a href="http://laurailona.github.io/calculator" target="_blank"><span class="white-highlight">Live demo</span></a> <a href="https://github.com/laurailona/calculator" target="_blank"><span class="white-highlight"> Code on Github</span></a></p></div>
-					</div>
-        </div>
-				<div class="portfolio-content-container">
-          <h3>Scripts and Helper Functions</h3>
-          <div class="portfolio-section">
-						<div class="portfolio-image"><img src="images/typewriter.gif" alt="placeholder"></div>
-						<div class="portfolio-text">
-							<h4><span class="white-highlight">typewriterEffect() - JavaScript</span></h4>
-							<p><span class="white-highlight">A little script to add a "Typewriter Effect" to pages. It lets you choose an array of strings to type, whether you'd like to loop indefininetly and which DOM element to type in. </span></p>
-						<p class="portfolio-links"><a href="#" target="_blank"><span class="white-highlight">Live demo</span></a> <span class="white-highlight"> Code on Github</span></p></div>
-					</div>
-        </div>
-			</div>
-        <div class="portfolio-title">
-          <div class="portfolio-title-container">
-						<h2><span class="white-highlight">PORTFOLIO</span></h2>
-						<a href="portfolio.html"><button class="full-portfolio-button">SEE MORE</button></a>
-					</div>
-        </div>
-      </section>
-      <section class="hire-me" id="hire-me">
-				<h2>WORK WITH ME</h2>
-				<p>Until this portfolio is hosted somewhere outside of Github, the contact form doesn't work unfortunately. But hey, you can email me at <a href="mailto:clarkelaura92@gmail.com">clarkelaura92@gmail.com</a>.</p>
-				<div class="form-container">
-					<form class="contact-form" action="#" method="POST">
-						<div class="contact-form-left">
-							<input type="text" placeholder="Name" name="name">
-							<input type="text" placeholder="Email" name="email">
-							<button type="submit" name="Submit" value="submit">SUBMIT</button>
-						</div>
-						<div class="contact-form-right">
-							<textarea placeholder="Your message"></textarea>
-						</div>
-					</form>
-				</div>
-				<a href="https://github.com/laurailona" target="_blank"><img src="images/github-logo.svg" alt="Github Logo" class="social-media-logo"></a>
-				<a href="https://www.freecodecamp.org/laurailona" target="_blank"><img src="images/freecodecamp.svg" alt="Freecodecamp Logo" class="social-media-logo"></a>
-				<a href="https://codepen.io/laurailona" target="_blank"><img src="images/codepen-logo.svg" alt="CodePen Logo" class="social-media-logo"></a>
-			</section>
-    </main>
-    <footer>
-			<p><span class="white-highlight">(c) 2018 Laura Ilona Clarke | source code on Github</span></p>
-    </footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="scripts/typewriter.js"></script>
-	 <script src="scripts/main.js"></script>
-	</body>
+    <div class="section-title"><h2 class="cursive" id="about-title">About</h2><img src="images/paint-background-white.svg"></div>
+    <div class="about-text-container">
+      <span id="about-text" class="about-text">
+        <p>I'm a <em>full stack developer</em>  and <em>Instructional Designer</em> , with an <em>MSc Computer Science</em>  and a <em>CELTA</em> teaching certificate. I'm <em>based in the UK</em> and have been working <em>remotely</em> since 2018.</p>
+      </span>
+      </div>
+
+
+    <ul class="about-list cursive">
+      <li><span>Msc Computer Science</span><img src="images/paint-background-yellow.svg"></li>
+      <li><span>Instructional Design Experience</span><img src="images/paint-background-blue.svg"></li>
+      <li><span>Frontend skills and data visualisation</span><img src="images/paint-background-rose.svg"></li>
+      <li><span>Backend and database skills</span><img src="images/paint-background-green.svg"></li>
+      <li><span>Efficient work flow</span><img src="images/paint-background-red.svg"></li>
+    </ul>
+    <div class="background-transition"><img src="images/transition-2-3.svg"></div>
+  </div>
+  <!-- SECTION 2.2: TEAMPLAYER -->
+  <div class="section-container grid-container" id="section-3">
+    <div class="text-container">
+      <h3>Did I mention?</h3>
+      <h3 class="cursive title">I'm also a team player.</h3>
+    </div>
+    <div class="image-container"><img src="images/team-player.svg"></div>
+  </div>
+  <!-- SECTION 3.1: RESUME - EDUCATION -->
+  <div class="section-container grid-container" id="section-4">
+    <div class="resume-title-container">
+      <h2 class="cursive">Education</h2>
+      <img src="images/line.svg" class="line-underlined">
+    </div>
+      <div class="resume-section"><img src="images/education.svg" class="resume-section-large-image"></div>
+      <div class="resume-section">
+        <h3 class="uppercase">BA (Hons) Childhood and Youth Studies</h3>
+        <p>I completed my BA with the Open University while travelling, living and working abroad. This not only allowed me to improve my subject knowledge in the fields of education and pedagogy, but also vastly improved my research and academic writing skills, as well as my time management skills.</p>
+      </div>
+      <div class="resume-section">
+        <h3 class="uppercase">CELTA (Pass A)</h3>
+        <p>After working as an Early Years Educator in Switzerland, teaching English and German in Thailand and discovering my passion for education, I enrolled in a CELTA teacher training course, which I passed with a "Pass A". The course has immensely influenced my personal teaching style, making me a more student-centred and engaging educator.</p>
+      </div>
+      <div class="resume-section">
+        <h3 class="uppercase">MSc Computer Science</h3>
+        <p>I have always had a passion for technology, having built my first website, albeit a very silly one, at age 10. I decided to enroll in a postgraduate Computer Science programme, after going through a number of self-guided online programming courses. I achieved an MSc Computer Science with distinction, which focused on database management and design, e-Learning application development, network security, Interaction Design and best practices and ethics in IT.</p>
+      </div>
+      <div class="resume-section">
+        <h3 class="uppercase">Lifelong Learner</h3>
+        <p>I am always looking for opportunities to deepen my knowledge, advance my skills and explore new technologies, methods and areas.</p>
+      </div>
+  </div>
+  <!-- SECTION 3.2: RESUME - EXPERIENCE -->
+  <div class="section-container grid-container" id="section-5">
+    <div class="resume-title-container">
+      <h2 class="cursive">Experience</h2>
+      <img src="images/line.svg" class="line-underlined">
+    </div>
+    <div class="experience-image-container"><img src="images/work-experience.svg" class="resume-section-small-image"></div>
+    <div class="resume-section">
+      <h3 class="uppercase">Language Instructor</h3>
+      <p>I was working as an English and German for both children and adults in a variety of settings for a number of years. This included on-site training, both within language institutions and privately, in Thailand, China and Egypt, as well as teaching Business English and German to European professionals remotely via phone, video call and web conferencing software. </p>
+    </div>
+    <div class="resume-section">
+      <h3 class="uppercase">Instructional Designer + Translator</h3>
+      <p>I have over 2.5 years experience working as an Instructional Designer for Online Distance Training. I was responsible for the German curriculum and created two new beginner German courses, working through all stages of the development process independently, from research to production. In addition, I had been doing translation work, translating websites, commercial and legal documents, blog posts, educational materials, workshops and emails from English to German.</p>
+    </div>
+    <div class="resume-section">
+      <h3 class="uppercase">Freelance Developer</h3>
+      <p>I have been working as a full stack web developer since early 2019. Projects have involved Wordpress development, as well as web application development within the health care sector, focusing heavily on D3.js data visualisation, data management and backend development with Django and a number of Python libraries.</p>
+    </div>
+    <div class="resume-section">
+      <h3 class="uppercase">Your company?</h3>
+      <p>I am currently looking to take on additional work - the more challenging, the better. I am always hoping to grow as a developer and designer. I'm extremely organised, great at working independently and collaborating and, most importantly, I love what I do. If you are hoping to get me on your team or have a project you'd like me to work on, get in touch!</p>
+    </div>
+
+
+  </div>
+  <!-- SECTION 3.3: RESUME - SKILLS -->
+  <div class="section-container grid-container" id="section-6">
+    <div class="skills-title">
+      <h2 class="cursive">Skills</h2>
+      <img src="images/line.svg" class="line-underlined">
+      <h3>I have experience working with:</h3>
+    </div>
+    <div class="skills-section skills-left">
+      <img src="images/skills-frontend.svg">
+      <ul class="bullet-points">
+        <li>HTML, CSS</li>
+        <li>Vanilla JavaScript</li>
+        <li>React</li>
+        <li>D3.js</li>
+        <li>Wordpress</li>
+        <li>Adobe Photoshop, Canva</li>
+      </ul>
+    </div>
+    <div class="skills-section skills-right">
+      <img src="images/skills-backend.svg">
+      <ul class="bullet-points">
+        <li>PHP</li>
+        <li>C</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>Scikit-Learn</li>
+        <li>SQL, MySQL</li>
+        <li>PhpMyAdmin</li>
+      </ul>
+    </div>
+    <div class="skills-section skills-offset">
+      <img src="images/skills-misc.svg">
+      <ul class="bullet-points">
+        <li>Project Management Tools (Trello, Asana)</li>
+        <li>Version Control (Git, Github)</li>
+        <li>Translation</li>
+        <li>Instructional Design</li>
+        <li>Interaction Design</li>
+      </ul>
+    </div>
+    <div class="background-transition"><img src="images/transition-6-7.svg"></div>
+ </div>
+
+  <!-- SECTION 4: PORTFOLIO -->
+  <div class="section-container grid-container" id="section-7">
+    <div class="section-title"><h2 class="cursive">Projects</h2><img src="images/paint-background-white.svg"></div>
+    <ol>
+      <li>
+        <h3 class="cursive">Yoga Classification Application</h3>
+        <p>Built with Scikit-Learn and OpenPose, this application classifies, rates and corrects a number of yoga poses based on a 2D image input.</p>
+      </li>
+      <li>
+        <h3 class="cursive">D3.js - Data Visualisation</h3>
+        <p>A series of visualisations for health care related data. Part of a larger client project.</p>
+      </li>
+      <li>
+        <h3 class="cursive">A1 + A2 German Currriculum and Workshops</h3>
+        <p>A client project, which involved researching and designing the curriculum and corresponding workshops for their German beginners' course.</p>
+      </li>
+    </ol>
+    <div class="background-transition"><img src="images/transition-7-8.svg"></div>
+  </div>
+  <!-- SECTION 5: CONTACT -->
+  <div class="section-container grid-container" id="section-8">
+    <div class="section-title"><h2 class="cursive">Let's chat</h2><img src="images/paint-background-white.svg"></div>
+    <div class="image-container"><img src="images/lets-chat.svg"></div>
+    <div class="contact-icon"><img src="images/whatsapp.svg"></div>
+    <div class="contact-icon"><img src="images/github.svg"></div>
+    <div class="contact-icon"><img src="images/email.svg"></div>
+      <input type="text" id="contact-name" name="name" placeholder="Name" class="cursive">
+      <input type="email" id="contact-email" name="email" placeholder="Email" class="cursive">
+      <input type="text" id="contact-company" name="company" placeholder="Company (optional)" class="cursive">
+      <textarea name="message" id="contact-message" rows="4" placeholder="Your message" class="cursive"></textarea>
+      <button id="contact-submit">Submit</button>
+  </div>
+  <script src="scripts.js"></script>
+  </body>
 </html>
